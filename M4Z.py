@@ -297,7 +297,7 @@ def cekAPI(cookie):
 
     return external,user
 
-def afirka3():
+def ggwp17():
         try:
             kuki=open('data/cookie.txt','r').read()
         except FileNotFoundError:
