@@ -3,7 +3,7 @@
 
 #----------------[ DI BUAT OLEH ANDA ]-------------#
 import os, sys, time, json, random, platform, requests, rich, re
-from concurrent.futures import ThreadPoolExecutor as BAJOFFICIAL
+from concurrent.futures import ThreadPoolExecutor as khamdihiXV
 from datetime import datetime
 from os import system as sis
 from time import time as tim
@@ -41,7 +41,7 @@ def banner():
     CetakBanner('''[bold white]╔╗ ╦═╗╦ ╦╔╦╗╔═╗  ╦╔═╗
 ╠╩╗╠╦╝║ ║ ║ ║╣   ║║ ╦
 ╚═╝╩╚═╚═╝ ╩ ╚═╝  ╩╚═╝
-( Di buat oleh [bold green]khamdihi [bold white]) ''','color(8)')
+( Di buat oleh [bold green]BAJOFFICIAL [bold white]) ''','color(8)')
 
 def masuk():
     os.system('clear');banner()
