@@ -3,7 +3,7 @@
 
 #----------------[ DI BUAT OLEH ANDA ]-------------#
 import os, sys, time, json, random, platform, requests, rich, re
-from concurrent.futures import ThreadPoolExecutor as khamdihiXV
+from concurrent.futures import ThreadPoolExecutor as BAJOFFICIAL
 from datetime import datetime
 from os import system as sis
 from time import time as tim
