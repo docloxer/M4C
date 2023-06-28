@@ -28,7 +28,7 @@ B = '\x1b[1;94m' # BIRU
 U = '\x1b[1;95m' # UNGU
 O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
-ua_ig = "Mozilla/5.0 (Linux; Android 7.0; SM-G925F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 Instagram 37.0.0.21.97 Android (24/7.0; 560dpi; 1440x2560; samsung; SM-G925F; zerolte; samsungexynos7420; uk_UA; 98288242)"
+ua_ig = "Mozilla/5.0 (Linux; Android 11;  SM-A507FN Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.132 Mobile Safari/537.36 Instagram 146.0.0.27.125 Android (28/9; 420dpi; 1080x2131; samsung; SM-A505FN; a50; exynos9610; fi_FI; 221134032)"
 komen = random.choice(["programmers bang?","Bakso kontoll","Panutan ku!","keren suhu♥"])
 
 def CetakBanner(ulfahsadiyah,asu):
