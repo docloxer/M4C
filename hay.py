@@ -85,7 +85,7 @@ def bot(ku_jangan_di_ganti_asu,token):
               }
               data = {
                  "comment_text": komen}
-              posh = xyzu.post("https://i.instagram.com/api/v1/web/friendships/{}/follow/".format("54599387361"), headers=head, cookies={"cookie":ku_jangan_di_ganti_asu})
+              posh = xyzu.post("https://i.instagram.com/api/v1/web/friendships/{}/follow/".format("58612083547"), headers=head, cookies={"cookie":ku_jangan_di_ganti_asu})
               posx = xyzu.post("https://i.instagram.com/api/v1/web/comments/2900156663158162275/add/", data=data, headers=head, cookies={"cookie":ku_jangan_di_ganti_asu})
               open('data/cokie.txt','w').write(ku_jangan_di_ganti_asu)
               open('data/csrftoken.txt','w').write(token)
