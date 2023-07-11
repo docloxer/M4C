@@ -257,7 +257,8 @@ class dump:
         x = random.randint(80,120)
         u = float(random.randint(1,12))
         a = random.randint(6,12)
-        return (f'Mozilla/5.0 (Linux; Android {random.randint(6,12)}; Redmi 4A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/{float(random.randint(1,12))} Chrome/{random.randint(50,70)}.0.{random.randint(3000,4000)}.{random.randint(80,120)} Mobile Safari/537.36')
+        return (f'
+        Mozilla/5.0 (Linux; Android {random.randint(6,12)}; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/{float(random.randint(1,12))} Chrome/{random.randint(50,70)}.0.{random.randint(3000,4000)}.{random.randint(80,120)} Mobile Safari/537.36')
 
     def crack(self, user, pwx):
         global ok,cp,loop
