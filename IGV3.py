@@ -934,7 +934,7 @@ if __name__=='__main__':
 
   except:pass
 
-  try: docloxer()
+  try: Instagram()
 
   except requests.exceptions.ConnectionError:
 
