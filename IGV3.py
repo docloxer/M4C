@@ -934,7 +934,7 @@ if __name__=='__main__':
 
   except:pass
 
-  try: Instagram()
+  try: M4C()
 
   except requests.exceptions.ConnectionError:
 
